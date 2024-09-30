@@ -3,6 +3,8 @@
     background-color: rgb(245, 240, 230);
     width: 100%;
     scroll-margin-top:46px;
+    margin:0;
+    padding:0;
 
     
 }
@@ -11,6 +13,8 @@
     color: white;
     width: 100%;
     scroll-margin-top:46px;
+    margin:0;
+    padding:0;
 }
 
 #Section3{
@@ -29,6 +33,8 @@
         width: 20%;
 
     }
+    margin:0;
+    padding: 0;
 }
 
 #img1{
@@ -40,7 +46,7 @@
 }
 
 #ucsd{
-    max-width: 75%;
+    max-width: 400px;
 }
 
 div{
@@ -72,4 +78,24 @@ ul{
     position: sticky;
     top: 0;
     font: 28px;
+}
+
+@media (max-width: 800px){
+    a{
+        display: none;
+    }
+    #ucsd{
+        max-width: 75%;
+    }
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #Section3{
+        p{
+            width: 40%;
+        }
+    }
 }
