@@ -31,8 +31,16 @@
     }
 }
 
+#img1{
+    max-width: 100%;
+}
+
+#img2{
+    max-width: 100%;
+}
+
 #ucsd{
-    max-width: 400px;
+    max-width: 75%;
 }
 
 div{
