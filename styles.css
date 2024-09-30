@@ -1,0 +1,67 @@
+
+#Section1{
+    background-color: rgb(245, 240, 230);
+    width: 100%;
+    scroll-margin-top:46px;
+
+    
+}
+#Section2{
+    background-image: url("background.jpg");
+    color: white;
+    width: 100%;
+    scroll-margin-top:46px;
+}
+
+#Section3{
+    background-color: rgb(245, 240, 230);
+    width: 100%;
+    scroll-margin-top:46px;
+    color: black;
+    p{
+        display:inline-block;
+        background-color: #182b49;
+        color: white;
+        margin-right: 25px;
+        text-align: center;
+        height: 500px;
+        overflow: scroll;
+        width: 20%;
+
+    }
+}
+
+#ucsd{
+    max-width: 400px;
+}
+
+div{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    font: 28px;
+}
+a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    position: sticky;
+    top: 0;
+    font: 28px
+}
+a:hover{
+    background-color: #182b49;
+    color:white
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    font: 28px;
+}
